@@ -9,12 +9,10 @@ body{
 .img{
 	width: 100%;
 	height: 100%;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in;
-}
-#animation {
 	animation-name: zoom;
 	animation-duration: .6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
 }
 @keyframes zoom {
 	0% {width: 100%; height:100%; margin-top:0px; margin-left:0px;}
